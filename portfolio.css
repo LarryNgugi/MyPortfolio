@@ -66,10 +66,10 @@ hr{
 }
 
 .line {
-    border-bottom: 2px solid #5cb85c ;
+    border-bottom: 3px solid #5cb85c ;
     display: inline-block;
     line-height: 2px;
-    border-radius: 4px 4px 4px 4px;
+    margin-top: 1px;
 }
 html{
     scroll-behavior: smooth;
@@ -87,7 +87,7 @@ html{
     text-align: right;
     padding-top: 4px;
     padding-bottom: 4px;
-    color: black;
+    color: white;
     border-radius: 6px 0  0 6px;
     font-size: 15px;
     
@@ -96,8 +96,8 @@ html{
   .html {width: 90%; background-color: #ff8800;}
   .css {width: 80%; background-color: #dc3545;}
   .c {width: 65%; background-color: #4ec942;}
-  .js {width: 55%; background-color: #e79ce6;}
-  .py {width: 75%; background-color: #808080;}
+  .js {width: 55%; background-color: #17bf9d;}
+  .py {width: 75%; background-color: #870483;}
 
   * {box-sizing: border-box}
 
@@ -119,5 +119,5 @@ html{
 
 .nav-scroll{
     background-color:  #262626;
-    z-index: 99;
+    z-index: 100;
 }
