@@ -1,0 +1,85 @@
+
+.text-color-red{
+    color: #dc3545;
+}
+header {
+    position: relative;
+    height: auto;
+    min-height: 650px;
+    width: 100%;
+    background: #161415 url(header-background.jpg) no-repeat top center;
+    background-size: auto;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    
+}
+header .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.fontColor{
+    color: black;
+}
+
+
+hr{
+    border-top: 2px solid white;
+    color: white;
+    background-color: white;
+  }
+.fontSize{
+    font-size: 20px;
+    font-weight: initial;
+    
+}
+
+.banner-text{
+
+    font-size: 90px;
+    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner-text-h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.banner-text-h6{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.about{
+    background: #262626;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.line {
+    border-bottom: 2px solid #dc3545 ;
+    display: inline-block;
+    line-height: -1px;
+    border-radius: 4px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.banner-links{
+    color: white;
+    text-decoration: none;
+}
+
+.banner-links:hover{
+    color: #dc3545;
+}
