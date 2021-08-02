@@ -66,10 +66,10 @@ hr{
 }
 
 .line {
-    border-bottom: 2px solid #dc3545 ;
+    border-bottom: 2px solid #5cb85c ;
     display: inline-block;
-    line-height: -1px;
-    border-radius: 4px;
+    line-height: 2px;
+    border-radius: 4px 4px 4px 4px;
 }
 html{
     scroll-behavior: smooth;
@@ -93,16 +93,16 @@ html{
     
   }
   
-  .html {width: 90%; background-color: #04AA6D;}
-  .css {width: 80%; background-color: #2196F3;}
-  .c {width: 65%; background-color: #f44336;}
-  .js {width: 55%; background-color: #808080;}
+  .html {width: 90%; background-color: #ff8800;}
+  .css {width: 80%; background-color: #dc3545;}
+  .c {width: 65%; background-color: #4ec942;}
+  .js {width: 55%; background-color: #e79ce6;}
   .py {width: 75%; background-color: #808080;}
 
   * {box-sizing: border-box}
 
 .container2 {
-  width: 100%;
+  width: 80%;
   background-color: #ddd;
   border-radius: 6px;
   font-size: 20px;
@@ -111,4 +111,13 @@ html{
 .text-font {
     font-size:18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-sticky{
+    position: sticky !important;
+}
+
+.nav-scroll{
+    background-color:  #262626;
+    z-index: 99;
 }
