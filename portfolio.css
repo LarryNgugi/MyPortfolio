@@ -83,3 +83,32 @@ html{
 .banner-links:hover{
     color: #dc3545;
 }
+.skills {
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: black;
+    border-radius: 6px 0  0 6px;
+    font-size: 15px;
+    
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .c {width: 65%; background-color: #f44336;}
+  .js {width: 55%; background-color: #808080;}
+  .py {width: 75%; background-color: #808080;}
+
+  * {box-sizing: border-box}
+
+.container2 {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 6px;
+  font-size: 20px;
+  
+}
+.text-font {
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
