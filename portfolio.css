@@ -136,14 +136,14 @@ html{
     font-size: 18px;
     transition: width 0.5s, height 0.5s;
     width: 100px;
-    height:55px;
+    height:53px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-    
+
 .button:hover{
       color: #5cb85c ;
       border: 2px solid #5cb85c;
-      width: 97px;
+      width: 85px;
       height:53px;
   }
   
