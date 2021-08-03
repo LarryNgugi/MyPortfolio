@@ -121,3 +121,30 @@ html{
     background-color:  #262626;
     z-index: 100;
 }
+.button {
+    /* background-color: #5cb85c; */
+    border: 2px solid #262626;
+    color: #262626;
+    padding: 10px ;
+    padding-left: px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: width 0.5s, height 0.5s;
+    width: 100px;
+    height:55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+.button:hover{
+      color: #5cb85c ;
+      border: 2px solid #5cb85c;
+      width: 97px;
+      height:53px;
+  }
+  
+
