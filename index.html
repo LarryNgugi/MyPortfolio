@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'>
 
     <!-- bootstrap tags -->
 
@@ -81,8 +82,8 @@
 
                 <div class="col-lg-12 col-md-12 col-sm-12 p-5 mt-5">
 
-                    <h1 class=banner-text id="home" ">I'm Larry Ngugi.</h1><br>
-                <h4 class=" banner-text-h4 text-muted">I'm a Nairobi based <span style="color: white;">Web
+                    <h1 class=banner-text id="home" >I'm Larry Ngugi. </h1><br>
+                     <h4 class=" banner-text-h4 text-muted">I'm a Nairobi based <span style="color: white;">Web
                             Developer</span> creating awesome
                         and<br> professional products for companies of all sizes around the globe.<br>
                         Let's start scrolling and learn more about me.</h5>
@@ -93,40 +94,40 @@
 
 
 
-                            <a href="https://twitter.com/LarryNgugi" class="banner-links">
+                            <a href="https://twitter.com/LarryNgugi" class="grow banner-links">
 
                                 <i class="fa fa-twitter m-3 fa-2x m-3" aria-hidden="true"></i>
 
 
                             </a>
 
-                            <a href="https://www.instagram.com/blvk.___.emoji/" class="banner-links">
+                            <a href="https://www.instagram.com/blvk.___.emoji/" class="grow banner-links">
 
                                 <i class="fa fa-instagram fa-2x m-3" aria-hidden="true"></i>
 
 
                             </a>
 
-                            <a href="https://www.facebook.com/jose.gich.71/" class="banner-links">
+                            <a href="https://www.facebook.com/jose.gich.71/" class=" grow banner-links">
 
                                 <i class="fa fa-facebook fa-2x m-3" aria-hidden="true"></i>
 
 
                             </a>
 
-                            <a href="https://www.linkedin.com/in/larry-ngugi-310965176/" class="banner-links">
+                            <a href="https://www.linkedin.com/in/larry-ngugi-310965176/" class=" grow banner-links">
 
                                 <i class="fa fa-linkedin fa-2x m-3" aria-hidden="true"></i>
 
                             </a>
 
-                            <a href="https://stackoverflow.com/users/16333039/larry-ngugi" class="banner-links">
+                            <a href="https://stackoverflow.com/users/16333039/larry-ngugi" class="grow banner-links">
 
                                 <i class="fa fa-stack-overflow fa-2x m-3 " aria-hidden="true"></i>
 
                             </a>
 
-                            <a href="https://github.com/LarryNgugi/" class="banner-links">
+                            <a href="https://github.com/LarryNgugi/" class="grow banner-links">
 
                                 <i class="fa fa-github fa-2x m-3" aria-hidden="true"></i>
 
@@ -160,19 +161,19 @@
 
     </header>
 
-    <div class="container-fluid about">
+    <div class="container-fluid about ">
         <div class="row">
             <div class="col-lg-16 col-md-4 col-sm-12">
                 <img src="profilepic.jpg" class="rounded-circle mt-5 p-4 ml-2 justify-content-right" width="200"
                     height="200" alt="profile picture">
             </div>
-            <div class="col-lg-8 col-md-6 col-sm-12 fontSize" id="about">
+            <div class="col-lg-8 col-md-6 col-sm-12 fontSize " id="about">
 
                 <h4 class=" text-white my-5">About Me</h4>
 
                 <h6 class="text-white banner-text-h4 test-weight-normal text-muted"><span style="font-size: 25px;;"
                         class="text-color-red">
-                        Hey,</span><br> My name is Larry Ngugi I'm a Web Developer based in Nairobi,Kenya. I describe
+                        Hey,</span><br><br> My name is Larry Ngugi I'm a Web Developer based in Nairobi,Kenya. I describe
                     myself
                     as a passionate developer who loves coding, open source, and the web platform.<br><br>
 
@@ -185,17 +186,34 @@
                 </h6>
 
 
-                <h4 class=" text-white my-5">Contact Me</h4>
+                <!-- contact me button -->
 
-                <h6 class="text-white about text-muted pb-5">
+                    <div class="container mt-3 ">
 
-                    Larry Joseph Githaka Ngugi.<br>
-                    (+254)714 389500<br>
-                    larry.josephgithaka@gmail.com<br>
-                    Nairobi,Kenya.
+                      <a href="#contact" class="btn">
 
-                </h6>
+                         <svg width="277" height="62">
 
+                            <defs>
+
+                              <linearGradient id="grad1">
+
+                                <stop offset="0%" stop-color="#FF8282"/>
+                                
+                                <stop offset="100%" stop-color="#E178ED" />
+
+                                </linearGradient>
+
+                           </defs>
+
+                           <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+
+                         </svg>
+  
+                          <span class="btn float-center">Contact Me </span>
+                     </a>
+
+                 </div>
 
 
             </div>
@@ -214,8 +232,10 @@
             <div class="col-lg-8 col-md-6 col-sm-12 fontSize float-right mt-5 pt-5 p-1">
                 <h4 class="font-weight-bold">Kwetu Hub</h4>
                 <h5 class="font-italic text-muted">Bootcamp • September 2021 </h5>
-                <h6 class="pt-3 banner-text-h6 text-muted  ">Kwetu Hub equiped me with Marketable Skills in the Tech industry such
-                    as Teamwork, Interview skills and Intensive Coding Skills.This enabled me to develop my carrer to a Junior Full Stack Web Developer. 
+                <h6 class="pt-3 banner-text-h6 text-muted  ">Kwetu Hub equiped me with Marketable Skills in the Tech
+                    industry such
+                    as Teamwork, Interview skills and Intensive Coding Skills.This enabled me to develop my carrer to a
+                    Junior Full Stack Web Developer.
                 </h6>
                 <h4 class="font-weight-bold pt-4 mt-4 ">Jomo Kenyatta University Of Agriculture And Technology.</h4>
                 <h5 class="font-italic text-muted">B.A. Degree in Computer Technology • September 2024</h5>
@@ -320,77 +340,99 @@
 
         </div>
 
-    </div> 
+    </div>
 
 
     <div class="container-fluid bg-light ">
 
         <div class="row">
 
-            <div class="col-lg-6 col-md-6 col-sm-12 ml-5 pt-5 pb-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 ml-5 pt-5 pb-5" id="contact">
 
 
-                <h4 class="text-dark text-center">Tell Me About Your Project.</h4>
-                
+                <h2 class="text-dark text-center h2-color">Find out how we could work together.</h2>
+                <h6 class="text-center text-muted">Email us at <span class="h2-color"><a href="mailto:larry.josephgithaka@gmail.com" class="text-decoration" >
+                        larry.josephgithaka@gmail.com</a></span> or message us below.</h6></a>
 
-                    <form>
-                    
-                       <div class="form-group">
-                        <input  type="text" id="name" name="name" class=" form-control m-1" placeholder="Name*">
-                       </div>
 
-                       <div class="form-group">
+
+                <form>
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class=" form-control m-1" placeholder="Name*">
+                    </div>
+
+                    <div class="form-group">
                         <input type="email" id="email" name="email" class="  form-control m-1" placeholder="Email*">
-                       </div>
+                    </div>
 
-                       <div class="form-group">
-                        <input type="phonenumber" id="phonenumber" name="phonenumber" class="  form-control m-1" placeholder="Phone(Optional)">
-                       </div>
+                    <div class="form-group">
+                        <input type="phonenumber" id="phonenumber" name="phonenumber" class="  form-control m-1"
+                            placeholder="Phone(Optional)">
+                    </div>
 
-                       <div class="form-group">
-                        <input type="organizatiton" id="organization" name="organization" class="  form-control m-1" placeholder="Organization">
-                       </div>
+                    <div class="form-group">
+                        <input type="organizatiton" id="organization" name="organization" class="  form-control m-1"
+                            placeholder="Organization">
+                    </div>
 
-                       <div class="form-group">
-                        <input type="subject" id="subject" name="subject" class="  form-control m-1" placeholder="Subject">
-                       </div>
+                    <div class="form-group">
+                        <input type="subject" id="subject" name="subject" class="  form-control m-1"
+                            placeholder="Subject">
+                    </div>
 
-                       <div class="form-group">
-                        <textarea name="message" id="maneno" class=" form-control m-1" placeholder="Write your message here"></textarea>
-                       </div>
-                    
-                        <button type="submit" class="button"> Submit </button>
-                      
-                    </form>
-                  
-                    
-    
-                   
-                
+                    <div class="form-group">
+                        <textarea name="message" id="maneno" class=" form-control m-1"
+                            placeholder="Write your message here"></textarea>
+                    </div>
 
-            </div>
+                    <button type="submit" class="button"> Submit </button>
 
-            <div class="col-lg-3 col-md-4 col-sm-12 float-right">
-
-                <h4 class=" text-dark my-3">Contact Me</h4>
-
-                <h6 class="text-dark text-muted mb-5 ">
-
-                    Larry Joseph Githaka Ngugi.<br>
-                    (+254)714 389500<br>
-                    larry.josephgithaka@gmail.com<br>
-                    Nairobi,Kenya.
-
-                </h6> 
-
+                </form>
 
             </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 ml-4 box_contact align-self-center">
+
+                <h5 class="ml-lg-5 ml-0 pl-lg-5 pl-0 "><span class="email text-muted">larry.josephgithaka@gmail.com</span></h5>
+                <h5 class="ml-lg-5 ml-0 pl-lg-5 pl-0 mt-0"><span class="phone text-muted">(+254)714389500</span></h5>
+                <h5 class="ml-lg-5 ml-0 pl-lg-5 pl-0 mt-0"><span class="skype text-muted">LARRY NGUGI</span></h5>
+
             
-       
+            </div>
+
+            
+        </div>
+
+        <div class="row justify-content-center float-right">
+
+           <h6 class="text-center pt-2 justify-content-center"> © 2021 Copyright, All Right Reserved </h6> 
+
+           <div class="justify-content-right">
+               
+           
+
+        <a href="https://twitter.com/LarryNgugi" target="_blank" class="banner-links grow">
+
+            <img src="twitter.png" alt="instagram link icon" width="25" height="25" class=" my-2 mx-1  banner-links grow">
+
+        </a> 
+
+        <a href="https://www.linkedin.com/in/larry-ngugi-310965176/" target="_blank" class="banner-links grow">
+
+            <img src="linked.png" alt="instagram link icon"  width="25" height="25" class=" my-2 mx-1 grow banner-links">
+
+       </a>
+
+           </div>
+            
            
         </div>
-       
-    </div>
+           
+ 
+       </div>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
