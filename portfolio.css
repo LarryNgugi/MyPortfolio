@@ -130,7 +130,7 @@ html{
     width: 140px;
     height: 45px;
     font-family: 'Roboto', sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-weight: 500;
@@ -143,7 +143,7 @@ html{
     cursor: pointer;
     outline: none;
 }
-  .button:hover {
+.button:hover {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
@@ -176,7 +176,8 @@ html{
 }
 .text-decoration{
     text-decoration: none;
-    cursor: pointer;  
+    cursor: pointer; 
+    color: #2EE59D; 
 }
 .text-decoration:hover{
     color: #dc3545;
@@ -205,12 +206,5 @@ html{
     color: #eee;
     font-size: 20px;
 }
-/* .btn {
-    background-color: DodgerBlue;
-    border: none;
-    color: #fff;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-  } */
+
    
