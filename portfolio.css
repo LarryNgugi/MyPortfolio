@@ -231,13 +231,16 @@ html{
     .banner-text-h4{
         margin-left: 20px;
     
+    }
+    .banner-text{
+        font-size: 200%;
     } 
     .head{
         margin-left: 20px;
         font-size: 50%
     }
     .banner-links{
-        font-size: 70%;
+        font-size:70%;
         text-align: center;
         
     }
@@ -252,4 +255,7 @@ html{
 .text-center{
     text-align: center;
 } 
-   
+
+
+
+
