@@ -101,6 +101,7 @@ html{
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
+
 .grow { transition: all .3s ease-in-out; cursor: pointer;}
 .grow:hover { transform: scale(1.1); }
 .skills {
@@ -110,7 +111,7 @@ html{
     color: #fff;
     border-radius: 6px 0  0 6px;
     font-size: 15px;
-}
+  }
 .html {width: 90%; background-color: #ffcb9a;}
 .css {width: 70%; background-color: #bab2b5;}
 .c {width: 65%; background-color: #afd275;}
@@ -167,10 +168,10 @@ html{
     color: #fff;
     transform: translateY(-7px);
 }
-.h2-color{
+ .h2-color{
      color: #4c8790;
 }
-.box_contact span.email {
+ .box_contact span.email {
     background: url(email.png) no-repeat;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #000000;
