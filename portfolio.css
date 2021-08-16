@@ -74,18 +74,33 @@ html{
     text-decoration: none;
     cursor: pointer;
 }
-.footer-links{
-    color: #000000;
-    text-decoration: none;
-    cursor: pointer;
-}
-.footer-links:hover{
-    color: #000000;
-    text-decoration: none;
-}
 .banner-links:hover{
     color: #dc3545;
 }
+.hvr-float {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+    text-decoration: none;
+    color: #dc3545;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
 .grow { transition: all .3s ease-in-out; cursor: pointer;}
 .grow:hover { transform: scale(1.1); }
 .skills {
@@ -95,7 +110,7 @@ html{
     color: #fff;
     border-radius: 6px 0  0 6px;
     font-size: 15px;
-  }
+}
 .html {width: 90%; background-color: #ffcb9a;}
 .css {width: 70%; background-color: #bab2b5;}
 .c {width: 65%; background-color: #afd275;}
@@ -132,7 +147,7 @@ html{
 .button {
     width: 140px;
     height: 45px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -152,10 +167,10 @@ html{
     color: #fff;
     transform: translateY(-7px);
 }
- .h2-color{
+.h2-color{
      color: #4c8790;
 }
- .box_contact span.email {
+.box_contact span.email {
     background: url(email.png) no-repeat;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #000000;
@@ -217,11 +232,14 @@ html{
     bottom: 20px;
     right: 20px;
     display: none;
-   
 }
 .btn-succes{
     background-color: transparent;
-     
+    border: none ;
+}
+.btn-succes:hover{
+    border: 2px#dc3545 solid;
+
 }
 @media only screen and (max-width:768px){
 
@@ -260,11 +278,13 @@ html{
 .text-center{
     text-align: center;
 } 
-
+/* 
+========================
+    BUTTON HIRE ME
+========================
+*/
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
-
-
 
 .btn {
 	line-height: 50px;
@@ -275,11 +295,7 @@ html{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* 
-========================
-    BUTTON HIRE ME
-========================
-*/
+
 .btn-one {
 	color: #FFF;
 	transition: all 0.3s;

@@ -354,7 +354,7 @@
                             placeholder="Write your message here"></textarea>
                     </div>
 
-                    <button onclick="showAlert() " type="button" class="button font-weight-bold"> Submit </button>
+                    <button onclick="showAlert() " type="button" title="Submit" class="button"> Submit </button>
                 </form>
 
             </div>
@@ -368,20 +368,20 @@
                 <h5 class="ml-lg-5 ml-0 pl-lg-5 pl-0 mt-0"><span class="phone">(+254)714389500</span></h5>
                 <h5 class="ml-lg-5 ml-0 pl-lg-5 pl-0 mt-0"><span class="skype">LARRY NGUGI</span></h5>
                 <div class="text-center">
-                    <a href="https://twitter.com/LarryNgugi" class=" footer-links m-1 " target="_blank">
-                        <i class="fa fa-twitter-square grow m-lg-1 fa-2x" aria-hidden="true"></i>
+                    <a href="https://twitter.com/LarryNgugi" class="hvr-float m-1 " target="_blank">
+                        <i class="fa fa-twitter-square m-lg-1 fa-2x" aria-hidden="true"></i>
                     </a>
     
-                    <a href="https://www.instagram.com/blvk.___.emoji/" class="footer-links m-1" target="_blank">
-                        <i class="fa fa-instagram grow fa-2x  m-lg-1 " aria-hidden="true"></i>
+                    <a href="https://www.instagram.com/blvk.___.emoji/" class="hvr-float m-1" target="_blank">
+                        <i class="fa fa-instagram fa-2x  m-lg-1 " aria-hidden="true"></i>
                     </a>
     
-                    <a href="https://www.facebook.com/jose.gich.71/" class=" footer-links m-1" target="_blank">
-                        <i class="fa fa-facebook-square grow fa-2x  m-lg-1 " aria-hidden="true"></i>
+                    <a href="https://www.facebook.com/jose.gich.71/" class="hvr-float m-1" target="_blank">
+                        <i class="fa fa-facebook-square fa-2x  m-lg-1 " aria-hidden="true"></i>
                     </a>
     
-                    <a href="https://www.linkedin.com/in/larry-ngugi-310965176/" class=" footer-links m-1" target="_blank">
-                        <i class="fa fa-linkedin-square grow fa-2x  m-lg-1 " aria-hidden="true"></i>
+                    <a href="https://www.linkedin.com/in/larry-ngugi-310965176/" class="hvr-float m-1" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x  m-lg-1 " aria-hidden="true"></i>
                     </a>
     
                 </div>
@@ -389,30 +389,32 @@
         </div>
 
 
-                <!-- back to top button -->
+           <!-- back to top button -->
        
-        <button type="button" class="btn btn-succes btn-floating btn-lg text-muted " title="back to top" id="btn-back-to-top">
+        <button type="button" class=" btn-succes btn-floating btn-lg text-muted" title="back to top" id="btn-back-to-top">
             Top
-            <i class="fas fa-arrow-up fa-lg"></i>
+            <i class="fas fa-arrow-up fa-lg ml-sm-0"></i>
         </button>
 
     </div>
 
-    <!-- Footer -->
+        <!-- Footer --> 
+        <footer class="page-footer font-small bg-black blue">
 
-    <footer class="page-footer font-small bg-black blue">
-
-        <!-- Copyright -->
-
-        <div class="footer-copyright py-3">
-
-            <h5 class="text-center text-muted banner-text-h6 p-2 m-2 "> © 2021 Copyright,All Right Reserved.</h5>
-
-        </div>
-
-        <!-- Copyright -->
-
-    </footer>
+            <!-- Copyright -->
+    
+            <div class="footer-copyright py-3">
+    
+                <h5 class="text-center text-muted banner-text-h6 py-2 my-2 "> © 2021 Copyright,All Right Reserved.</h5>
+    
+            </div>
+    
+            <!-- Copyright -->
+    
+        </footer>
+    
+        <!-- JavaScript tags -->
+   
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -445,8 +447,7 @@
         function showAlert() {
             Notiflix.Notify.Init({});
 
-            Notiflix.Notify.Failure('Erro:403 Kindly send via Email.This section is under maintainance.');
-
+            Notiflix.Notify.Failure('Error:403 Kindly send via Email.This section is under maintainance.');
             // Notiflix.Notify.Success('Thank you for your message • It has been sent.');
 
         }
