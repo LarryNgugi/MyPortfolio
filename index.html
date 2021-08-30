@@ -309,6 +309,8 @@
     </div>
 
 
+    <!-- form -->
+
     <div class="container-fluid bg-light ">
 
         <div class="row">
@@ -481,6 +483,13 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+        function autoResizeDiv()
+        {
+            document.getElementById('main').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
 
     </script>
 
